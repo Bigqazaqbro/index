@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игровой Канал</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        header {
+            background-color: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #ff5722;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #282828;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: #ff5722;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #ff5722;
+            padding-bottom: 10px;
+        }
+        .schedule, .games {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .card {
+            background-color: #1e1e1e;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .card h3 {
+            margin-top: 10px;
+            color: #ff5722;
+        }
+        footer {
+            background-color: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .social-icons a:hover {
+            color: #ff5722;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Игровой Канал</h1>
+    </header>
+    <nav>
+        <a href="#about">О канале</a>
+        <a href="#schedule">Расписание</a>
+        <a href="#games">Игры</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+    <div class="content">
+        <div id="about" class="section">
+            <h2>О канале</h2>
+            <p>Добро пожаловать на наш игровой канал! Здесь вы найдете самые интересные и увлекательные стримы по различным играм. Присоединяйтесь к нам, чтобы следить за новыми выпусками и участвовать в живых обсуждениях.</p>
+        </div>
+        <div id="schedule" class="section">
+            <h2>Расписание стримов</h2>
+            <div class="schedule">
+                <div class="card">
+                    <h3>Понедельник</h3>
+                    <p>20:00 - 22:00 МСК: World of Warcraft</p>
+                </div>
+                <div class="card">
+                    <h3>Среда</h3>
+                    <p>18:00 - 20:00 МСК: Minecraft</p>
+                </div>
+                <div class="card">
+                    <h3>Пятница</h3>
+                    <p>19:00 - 21:00 МСК: Apex Legends</p>
+                </div>
+            </div>
+        </div>
+        <div id="games" class="section">
+            <h2>Игры</h2>
+            <div class="games">
+                <div class="card">
+                    <img src="images/wow.jpg" alt="World of Warcraft">
+                    <h3>World of Warcraft</h3>
+                    <p>Исследуйте огромный мир Азерота вместе с нами!</p>
+                </div>
+                <div class="card">
+                    <img src="images/minecraft.jpg" alt="Minecraft">
+                    <h3>Minecraft</h3>
+                    <p>Строительство и приключения в блоковом мире.</p>
+                </div>
+                <div class="card">
+                    <img src="images/apex.jpg" alt="Apex Legends">
+                    <h3>Apex Legends</h3>
+                    <p>Быстрый и захватывающий королевский бой.</p>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="section">
+            <h2>Контакты</h2>
+            <p>Свяжитесь с нами через социальные сети или отправьте нам электронное письмо.</p>
+            <div class="social-icons">
+                <a href="https://vk.com" target="_blank">VK</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://www.youtube.com" target="_blank">YouTube</a>
+            </div>
+            <p>Email: gamingchannel@example.com</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Игровой Канал. Все права защищены.</p>
+    </footer>
+</body>
+</html>
